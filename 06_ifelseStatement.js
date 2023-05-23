@@ -1,20 +1,4 @@
-/*var checkLeapYear=function (leapyear){
 
-    if((0==leapyear%4)&&(0!==leapyear%100)||(0==leapyear%400)){
-         console.log(`${leapyear} is a leep year`);
-    }
-    else{
-        if((leapyear=null)||(leapyear=undefined)){
-            console.log(`Enter the valid input${leapyear}`);
-        }
-        else{
-            console.log(`${leapyear}this is not leapyear`);
-        }
-    }
-}
-checkLeapYear(2012);
-checkLeapYear(2011);
-checkLeapYear(null);*/
 
 
 
