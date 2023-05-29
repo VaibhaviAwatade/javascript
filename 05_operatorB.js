@@ -13,6 +13,9 @@ var isEvenOrOddNum=function (num){
 
 }
  var result=isEvenOrOddNum(29);
+
+
+ 
 var res=(result==true)?"29 is Even Number":"29 is Odd Number";
 console.log(`${res}`);
 
