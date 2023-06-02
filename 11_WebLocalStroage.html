@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Session Storage</title>
+</head>
+<body>
+    <h2> Session Storage </h2>
+    <script>
+        window.sessionStorage.setItem("name", "Vaibhavi Rajabhau Awatade");
+        window.sessionStorage.setItem("city", "Sangola");
+         window.sessionStorage.setItem("name", "Vaibhavi Rajabhau Awatade");
+        window.sessionStorage.setItem("pin", "413306");
+        window.sessionStorage.setItem("District", "solapur");
+
+        
+        window.sessionStorage.removeItem("city");
+
+        const nameItem = window.sessionStorage.getItem("name");
+        console.log(nameItem);
+        const cityItem = window.sessionStorage.getItem("city");
+        console.log(cityItem);
+    </script>
+
+</body>
+</html>
