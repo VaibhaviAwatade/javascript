@@ -12,7 +12,13 @@ console.log(arrayNumbers);
 console.log(`Adding index value on element`);
 let arrayNumbers1=[20,11,40,25,23,11,9,31,60,2,19];
 
-arrayNumbers.forEach((element,index)=>{
-arrayNumbers1=arrayNumbers1.map(element=>index +element);
-console.log(arrayNumbers1);
+// arrayNumbers.forEach((element,index)=>{
+// arrayNumbers1=arrayNumbers1.map(element=>index +element);
+// console.log(arrayNumbers1);
+// });
+
+const map=arrayNumbers1.map((x,index)=>{
+    //console.log(index);
+    return x+ index;
 });
+console.log(map);
